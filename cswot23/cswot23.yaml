@@ -2,20 +2,20 @@
 campaign:
   name: cswot23
   # path to general directory:
-  path: /Users/aponte/Code/drix_analysis/drixmed22/
+  path: /Users/aponte/Code/drix_analysis/cswot23/
   # path to raw data directory:
-  path_raw: /Users/aponte/Current_Projects/drix/campaigns/drixmed22/data/ESSDRIX-EU-2022/ 
+  path_raw: /Users/aponte/Current_Projects/drix/campaigns/cswot23/data/ 
   # path to clean data  directory:
-  path_processed: /Users/aponte/Cloud/Ifremer/drixmed22/data_clean/
+  path_processed: /Users/aponte/Cloud/Ifremer/cswot23/data_clean/
   # geographical and temporal bounds
   lon:
-    - 4.55
-    - 6.1
+    - 5.4
+    - 6.05
   lat:
-    - 42.75
-    - 43.45
-  start: 2022-09-21 05:00:00
-  end: 2022-09-25 18:00:00
+    - 42.6
+    - 43.25
+  start: 2023-03-24 05:00:00
+  end: 2023-04-22 18:00:00
   # bathymetric data and configuration
   bathy:
     path: "/Users/aponte/Data/bathy/med_gebco0/gebco_2022_n43.932_s41.3124_w2.0025_e7.6744.nc"
