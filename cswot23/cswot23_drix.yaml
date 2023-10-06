@@ -3,7 +3,8 @@ campaign:
   name: cswot23
   # path to general directory:
   #path: /Users/aponte/Code/drix_analysis/cswot23
-  path: /home/datawork-lops-osi/aponte/cswot/drix
+  #path: /home/datawork-lops-osi/aponte/cswot/drix
+  path: /home/datawork-lops-osi/aponte/drix/cswot23
   # path to raw data directory:
   #path_raw: /Users/aponte/Current_Projects/drix/campaigns/cswot23/data
   path_raw: raw
@@ -46,6 +47,12 @@ deployments:
     end: "2023-04-22 06:48:00"
     meta:
       color: crimson
+  refuel:
+    start: "2023-04-19 13:47:00"
+    end: "2023-04-19 16:26:00"
+    meta:
+        color: yellow
+
 # ------------------------------- platform info --------------------------------------
 #
 # Platforms data.
